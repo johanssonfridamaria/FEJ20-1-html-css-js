@@ -150,7 +150,12 @@ output2.addEventListener('mousemove', (e) => {
     // output2.style.backgroundColor = 'rgb('+e.offsetX+','+e.offsetY+',40)'
     output2.style.backgroundColor = `rgb(${e.offsetX},${e.offsetY},40)`
 })
-output2.addEventListener('click', (e) => {
+
+
+
+
+output2.addEventListener('click', function(e) {
+    console.log(e)
     output2.innerHTML = 
     `
     rgb(${e.offsetX},${e.offsetY},40)
