@@ -39,6 +39,8 @@ let cls2 = new Class1();
 
 // console.log(cls1, cls2)
 
+
+
 class User {
     constructor(first = 'förnamn', last = 'efternamn') {
         this.firstName = first;

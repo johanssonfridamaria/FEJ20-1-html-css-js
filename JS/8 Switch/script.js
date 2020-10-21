@@ -22,4 +22,3 @@ switch(color) {
         console.log('color unknown!');
 
 }
-
