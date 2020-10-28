@@ -1,4 +1,28 @@
-let todos = []
+/*
+OM ni vill:
+    -   gör så att man kan klarmarkera en todo och visa det i webbläsaren
+    -   skapa en filtreringsfunktion med en select där man kan välja om det ska visas de som är klara, inte klara eller alla
+
+*/
+
+
+let todos = [
+    {
+        id: '1',
+        title: "todo One",
+        completed: false
+    },
+    {
+        id: '2',
+        title: "todo Two",
+        completed: false
+    },
+    {
+        id: '3',
+        title: "todo Three",
+        completed: false
+    }
+]
 
 // console.log(todos);
 // console.log(JSON.stringify(todos))
