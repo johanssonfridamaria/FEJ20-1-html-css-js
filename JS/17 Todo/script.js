@@ -8,7 +8,7 @@ const input = document.querySelector('#todoInput');
 const addBtn = document.querySelector('#addTodo');
 const output = document.querySelector('#todos');
 
-fetch('https://jsonplaceholder.typicode.com/todos?_start=1&_limit=10', {})
+fetch('https://jsonplaceholder.typicode.com/todos?_start=1&_limit=10')
 .then(res => res.json())
 .then(data => {
     todos = data;
